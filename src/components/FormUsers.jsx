@@ -48,11 +48,11 @@ useEffect (() =>{
     <input className='form_input' type="text" {...register("first_name")} />
     </div>
     <div className='form_div'>
-    <label className='form_label' htmlFor="">First Name</label>
+    <label className='form_label' htmlFor="">Last Name</label>
     <input className='form_input' type="text" {...register("last_name")} />
     </div>
     <div className='form_div'>
-    <label className='form_label' htmlFor="">First Name</label>
+    <label className='form_label' htmlFor="">Birthday</label>
     <input className='form_input' type="date" {...register("birthday")} />
     </div >
     <button className='form_btn'>{textButton}</button>
